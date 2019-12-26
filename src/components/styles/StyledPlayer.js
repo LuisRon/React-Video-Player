@@ -3,6 +3,8 @@ import styled from "styled-components";
 const StyledPlayer = styled.div`
   background: ${props => props.theme.bgcolor}; /* #353535; */
   border: ${props => props.theme.border};
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #888888;
   max-width: 1800px;
   margin: 0 auto;
   display: -webkit-box;
